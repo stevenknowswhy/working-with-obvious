@@ -3,7 +3,7 @@ name: working-with-obvious
 description: Delegates build, document, and research work to the Obvious desktop app through work orders, then drives each order to a verified, merged delivery. Use when the user asks to send work to Obvious, start or revise a work order, check on an Obvious run, approve something a run is waiting on, or verify and merge what Obvious delivered. Not for work the agent should simply do itself in chat, and not for Obvious workspace settings such as model selection, which only the workspace owner can change.
 license: MIT
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Working With Obvious
@@ -98,6 +98,32 @@ Use the skeleton in `assets/work-order-template.md`.
 - When a run cannot proceed (a UI defect, a policy block), say what is
   blocked, produce the deliverable by another route if the user still wants
   it, and mark the run superseded rather than leaving it "in progress."
+
+## Optimize the work
+
+- **Spend the pool like it expires — it does.** Read the credits ledger
+  before a batch; plan backwards from the promo expiry; batch the day's
+  orders and front-load the highest-value builds.
+- **Pin models deliberately, or not at all.** Pinned non-included models
+  bill separately at usage rates. Leave routine work on the included
+  routing; pin strength only where quality is the deliverable (a judge, a
+  final spec). If model selection is policy-blocked, design orders that
+  don't need pinning — spec quality beats model shopping.
+- **Fidelity-check the spec a run returns before approving it.** That
+  restatement is the cheapest correction point in the pipeline; check it
+  line by line against the clean copy sent.
+- **Use project memory for protocols, not state.** Durable methods belong
+  in memory; balances and statuses go stale there. Build repeated roles
+  once as custom agents; for judges and reviewers, memory disabled keeps
+  verdicts independent.
+- **Separate builder from verifier.** Deliveries that looked finished and
+  weren't were caught by independent evidence checks at the destination,
+  never by asking the builder again.
+- **Have an exit route for every order.** If a run dies (a defect, a
+  policy block), the deliverable still ships by another route; mark the
+  run superseded.
+
+The reasoning and the full playbook are in `references/field-notes.md`.
 
 ## When something goes wrong
 

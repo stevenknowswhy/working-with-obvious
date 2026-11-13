@@ -31,6 +31,11 @@ and the human deciding, in batches, only what is genuinely theirs to decide.
   approval control that didn't exist, workspace-policy-blocked model
   selection, and why no workflow may depend on an agent-owned email
   account.
+- **The field notes** (`references/field-notes.md`) — the optimization
+  playbook: spend the promo pool backwards from its expiry, pin models
+  only where quality is the deliverable, fidelity-check the spec a run
+  returns before approving it, keep protocols (not state) in project
+  memory, and separate the builder from the verifier.
 
 ## Install
 
@@ -54,6 +59,7 @@ wrong, which is exactly when it's needed.
 ```
 SKILL.md                        # the method (loads when the skill triggers)
 references/gotchas.md           # failure modes, loaded on trouble
+references/field-notes.md       # insights + optimization playbook
 assets/work-order-template.md   # the spec skeleton every order starts from
 ```
 
