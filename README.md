@@ -9,6 +9,42 @@ workforce (repo reorganizations, spec builds, document drafting, plan
 updates), with the agent commissioning, gating, verifying, and merging —
 and the human deciding, in batches, only what is genuinely theirs to decide.
 
+## Why Muse + Obvious
+
+Neither tool does the other's job. Obvious executes — it runs focused
+work orders inside its own app, in parallel, against real deliverables.
+Muse owns everything around the execution: the user's context and
+memory, the decisions, the spec, and the proof that what came back is
+what was asked for. Paired, you get:
+
+- **Parallel hands, one accountable head.** Several orders run at once,
+  each landing as its own pull request or named file. Muse sequences
+  them, watches for the ones that stall, and keeps the user out of the
+  tool's inbox entirely.
+- **Decisions stay with the human, in batches.** The runs execute; the
+  choices that are genuinely the user's — scope, money, rulings — come
+  back as one numbered list with evidence and labeled recommendations,
+  not as a drip of app notifications.
+- **Specs instead of vibes.** Every order is written to the same anatomy
+  — outcome, named sources, acceptance tests, stop rules, an echo into
+  the project record — so the work is checkable on arrival instead of
+  arguable.
+- **Verification at the destination.** "Completed" in the app is a
+  claim; the merge, the file, and the checked acceptance tests are the
+  fact. Muse reads the destination, not the status screen.
+- **Bounded cost, on purpose.** The pairing treats credits as a dated,
+  finite pool: read the ledger first, leave routine work on the included
+  model routing, and pin premium models only where quality is the
+  deliverable.
+- **A paper trail that outlives the session.** Running logs, saved
+  specs, and verified merges mean the next session — or the next agent —
+  starts from the record, not from memory.
+
+The skill is the contract between the two tools. Install it, and any
+agent session that drives Obvious inherits the discipline: no
+babysitting the user, no trusting a status screen, no merging what
+hasn't been checked.
+
 ## What it teaches an agent
 
 - **The operating contract** — no babysitting: the agent writes specs,
