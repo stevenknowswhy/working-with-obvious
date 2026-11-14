@@ -1,7 +1,7 @@
 # Feedback for Obvious — what would make the middleman unnecessary
 
 *From a Frontier Build participant who ran a real project through
-Obvious for a week — seven work orders in a day, all delivered as PRs —
+Obvious in a single day — seven work orders, all delivered as PRs —
 with an external agent (Muse) acting as operator: writing the specs,
 pressing the gates, verifying deliveries, and batching every decision
 for the human. Everything below is a place where that agent was

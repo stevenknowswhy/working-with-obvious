@@ -6,10 +6,11 @@ Obvious as a workforce.
 
 ## Spend the pool like it expires — because it does
 
-- **Promo pools are bounded and dated.** The observed workspace ran a real
-  multi-order project for a week on ~2 credits of a 1,000-credit promo
-  grant: the constraint was never the balance, it was the expiry. Plan
-  backwards from the expiry date; batch the day's orders instead of
+- **Promo pools are bounded and dated.** All seven work orders of the
+  observed project ran in a single day, and the workspace ledger showed
+  ~2 credits of total burn over the preceding week against a 1,000-credit
+  promo grant: the constraint was never the balance, it was the expiry.
+  Plan backwards from the expiry date; batch the day's orders instead of
   dribbling them out, and front-load the highest-value builds.
 - **Read the ledger before a batch, not after.** Grants, burn, and expiry
   are all in the credits view. A five-second ledger check before a big

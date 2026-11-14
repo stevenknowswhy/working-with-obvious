@@ -4,9 +4,9 @@ An [Agent Skill](https://agentskills.io) for delegating work to the
 [Obvious](https://obvious.ai) app through work orders — and driving every
 order to a verified, merged delivery instead of a hopeful "Completed."
 
-Built from real use: a multi-week project run with Obvious as the build
-workforce (repo reorganizations, spec builds, document drafting, plan
-updates), with the agent commissioning, gating, verifying, and merging —
+Built from real use: a real project run through Obvious in a single
+intensive day — seven work orders with Obvious as the build workforce
+(repo reorganizations, spec builds, document drafting, plan updates), with the agent commissioning, gating, verifying, and merging —
 and the human deciding, in batches, only what is genuinely theirs to decide.
 
 ## Why Muse + Obvious
