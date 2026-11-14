@@ -108,3 +108,41 @@ not a colleague with a vibe: a written scope, acceptance tests, a paper
 trail, verified delivery, and a human who decides the few things that are
 actually theirs. Every optimization above is that sentence applied to a
 different surface — credits, specs, memory, or attention.
+
+## Already built in — don't rebuild it
+
+Audited 2026-11-13 against Obvious's own published documentation
+(obvious.ai/fusion, obvious.ai/autobuild, obvious.ai/llm-info). The
+platform ships more operating machinery than a new user expects; the
+pairing's job is to *operate* it, not recreate it:
+
+- **Persistent memory** — facts, decisions, and conversation history
+  across sessions, inside the workspace. (What it doesn't hold: the
+  user's context outside Obvious. That's the layer the driving agent
+  carries in.)
+- **Blueprint specs** — AutoBuild researches the codebase, drafts the
+  spec with its tests, and waits for approval before building.
+- **Loop Designer** — custom process steps, handoffs, and human
+  approval gates.
+- **QA with evidence** — checks run against your criteria with
+  screenshots, test results, and API responses attached; failed checks
+  are fixed and retested before you see them.
+- **Review gates and merge rules** — required checks and a named final
+  say on merges; completion gates backed by database evidence.
+- **The Inbox** — decisions and blocked work queued with context,
+  across projects.
+- **Cost controls** — per-member credit limits, daily caps, an
+  account-menu view of remaining allowance, and a warning before
+  switching to a separately billed model.
+- **Skills and knowledge** — the platform learns your codebase and
+  docs and applies your team's existing skills.
+- **Self-improvement** — runs propose fixes to their own instructions,
+  which wait for your approval.
+
+An earlier draft of the companion README understated several of these
+(it described Obvious as starting from the order, reporting
+"Completed," and letting credits burn invisibly). All three were
+wrong against the vendor's own docs and were corrected — the
+destination-verification rule survives not because Obvious lacks
+checks, but because a checked claim is still a claim until someone
+reads the deliverable.

@@ -29,13 +29,16 @@ what was asked for. Paired, you get:
   — outcome, named sources, acceptance tests, stop rules, an echo into
   the project record — so the work is checkable on arrival instead of
   arguable.
-- **Verification at the destination.** "Completed" in the app is a
-  claim; the merge, the file, and the checked acceptance tests are the
-  fact. Muse reads the destination, not the status screen.
-- **Bounded cost, on purpose.** The pairing treats credits as a dated,
-  finite pool: read the ledger first, leave routine work on the included
-  model routing, and pin premium models only where quality is the
-  deliverable.
+- **Verification at the destination.** Obvious builds real checks in —
+  AutoBuild attaches QA evidence and gates merges — and still, in the
+  general workspace a run marked complete delivered partially, and
+  another stalled outright. The merge, the file, and the checked
+  acceptance tests are the fact, on every surface.
+- **Bounded cost, on purpose.** The ledger, per-member limits, and
+  daily caps are built into Obvious; the pairing adds the discipline of
+  reading the ledger before a batch, treating a promo pool's expiry as
+  the planning deadline, and pinning premium models only where quality
+  is the deliverable.
 - **A paper trail that outlives the session.** Running logs, saved
   specs, and verified merges mean the next session — or the next agent —
   starts from the record, not from memory.
@@ -49,13 +52,26 @@ hasn't been checked.
 |---|---|---|---|
 | Executes the work | Yes — one thread, sequentially | Yes — focused work orders | Yes — Obvious executes, in parallel |
 | Parallel orders | No — one thing at a time | Yes | Yes — and Muse sequences them |
-| Knows the user and the project's history | Yes — memory, files, prior decisions | No — starts from the order | Yes — every order carries the context it needs |
-| Writes the spec and acceptance tests | Yes | No — the user writes them, or nobody does | Yes — Muse specs to a fixed anatomy |
-| Verifies the delivery | At the destination, always | Reports "Completed" | PRs checked at the destination, then merged |
-| Handles the human's decisions | Asks in chat | Waits inside the app, one ping at a time | Batched in chat, as one numbered list |
-| Watches cost | N/A | Credits burn invisibly; pinned models bill extra | Ledger read first; pinning is deliberate |
-| Paper trail | Logs and saved specs | Lives inside the app | Running log + verified merges, readable by the next session |
-| The human's job | Direct the work | Babysit the inbox | Decide — nothing else |
+| Knows the user and the project's history | Yes — memory, files, prior decisions | Yes — persistent memory inside its workspace | Yes — Muse's wider context, carried into each order |
+| Writes the spec | Yes | Yes — AutoBuild drafts a Blueprint spec and waits for approval | Yes — Muse writes the order to a fixed anatomy (acceptance tests, stop rules) and fidelity-checks the run's plan against it |
+| Verifies the delivery | At the destination, always | QA with evidence and review gates in AutoBuild; a general run can still read "complete" with delivery partial | Destination-checked on every surface; merged only when it passes |
+| Handles the human's decisions | Asks in chat | Inbox queues decisions with context | Batched in the user's own chat, across every project at once |
+| Watches cost | N/A | Ledger, per-member limits, and daily caps are built in | Ledger read before each batch; model pinning and Max mode deliberate |
+| Paper trail | Logs and saved specs | Runs and decisions in the app; deliverables land where directed | Running log + verified merges, readable by the next session |
+| The human's job | Direct the work | Work the Inbox | Decide — nothing else |
+
+**Checked, not just claimed.** This comparison was audited on
+2026-11-13 against Obvious's own published documentation — the
+[Fusion](https://obvious.ai/fusion) and
+[AutoBuild](https://obvious.ai/autobuild) pages and the official
+product information at [obvious.ai/llm-info](https://obvious.ai/llm-info).
+Obvious ships real review machinery of its own: persistent memory,
+Blueprint specs with approval before building, QA evidence, review
+gates, and an Inbox that queues decisions with context. Where an
+earlier draft of this README understated any of that, it was
+corrected. The pairing's claim is narrower and stronger: Muse sits
+on those controls on the user's behalf, across every project and
+tool the user runs — so the user never has to be the operator.
 
 ## What it teaches an agent
 

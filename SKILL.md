@@ -3,7 +3,7 @@ name: working-with-obvious
 description: Delegates build, document, and research work to the Obvious desktop app through work orders, then drives each order to a verified, merged delivery. Use when the user asks to send work to Obvious, start or revise a work order, check on an Obvious run, approve something a run is waiting on, or verify and merge what Obvious delivered. Not for work the agent should simply do itself in chat, and not for Obvious workspace settings such as model selection, which only the workspace owner can change.
 license: MIT
 metadata:
-  version: "1.1.0"
+  version: "1.1.1"
 ---
 
 # Working With Obvious
@@ -69,6 +69,13 @@ Use the skeleton in `assets/work-order-template.md`.
 
 ## Verify and merge
 
+Obvious builds real checks in — AutoBuild runs QA against your criteria
+with evidence attached (screenshots, test results), fixes failed checks
+before you see them, and supports review gates and merge rules. Use
+them; they still don't replace the destination check, because a general
+workspace run marked complete has delivered partially, and another has
+stalled with no delivery at all.
+
 1. Fidelity-check the PR against the order: files, figures, statuses, and
    anything the order said must *not* change.
 2. Run the order's acceptance tests at the destination (repo state, live
@@ -81,12 +88,18 @@ Use the skeleton in `assets/work-order-template.md`.
 ## Credits and plan discipline
 
 - Read the credits ledger before concluding anything about balance: in-app
-  "out of credits" banners have misreported a nearly full promo pool.
-- Promo credits expire. Know the expiry date and treat the pool as a
-  bounded resource: worth spending on real orders today, never a reason to
-  invent work.
+  "out of credits" banners have misreported a nearly full promo pool. The
+  account menu shows how much of a plan's monthly allowance remains.
+- Promo credits expire; a plan allowance resets monthly instead. Know
+  which pool you are spending, and treat a promo pool as a bounded
+  resource: worth spending on real orders today, never a reason to invent
+  work.
 - Know what is *not* covered: models pinned outside the plan's included
-  routing bill separately at usage rates.
+  routing bill separately at usage rates (you get a warning before
+  switching), and Max mode costs 2–3× credits. Spend both deliberately.
+- Cost controls are built in: workspace admins choose which models are
+  available and can set per-member credit limits and daily caps. Use
+  them — they are the platform's own runaway protection.
 
 ## Boundaries
 
