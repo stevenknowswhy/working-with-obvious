@@ -77,3 +77,30 @@ contain: a file that should not change, a status that needed defining, a
 figure that needed a source. **Rule:** when a delivery disappoints, fix
 the spec first (clean copy, see SKILL.md), and only then re-run. Re-running
 a vague spec produces a second vague delivery at full price.
+
+## Submitting feedback: the built-in feedback skill, and the composer
+Obvious has a built-in feedback flow: start a **new chat**, say you have
+feedback to submit (and its kind), and a feedback skill engages — it
+renames the chat, asks what you'd like changed and how important it is,
+collects items one by one with an acknowledgment per item, submits them
+under an ID (observed form: `pfb_…`), and can **amend** that submission
+from the same thread when you declare the list complete. Driving it from
+outside (desktop control) has its own traps:
+
+- **The composer sends on Enter.** Multi-paragraph text typed or filled
+  programmatically goes out paragraph by paragraph — the first paragraph
+  sends, the rest sits in the composer. One long `fill` of ~3,700
+  characters never committed at all. **Rule:** send one item per message,
+  verify each landed from the agent's acknowledgment, and let the skill
+  collect them.
+- **Characters can be eaten mid-message.** One item arrived truncated
+  mid-phrase ("with the e—"). The feedback agent caught it and asked for
+  the missing words; a quieter run might not. **Rule:** read the agent's
+  per-item summary against what you sent, and repair discrepancies in a
+  follow-up message before declaring the list complete.
+- **A submission can exist before you're done.** The skill submitted
+  early, then amended on request — including a corrected item and the
+  closing line — and confirmed the final state with the submission ID.
+  **Rule:** end with an explicit "the list is complete; amend the
+  submission with everything since the send, and confirm" so the filed
+  version is the whole version.
