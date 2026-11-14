@@ -43,6 +43,27 @@ what was asked for. Paired, you get:
   specs, and verified merges mean the next session — or the next agent —
   starts from the record, not from memory.
 
+### When the pairing pays — and when it doesn't
+
+If your work lives entirely inside one Obvious workspace and you're
+glad to work its Inbox, Obvious's own loop — Blueprint, gates, QA
+evidence, merge — is complete, and this pairing adds convenience, not
+capability. The pairing pays when the work doesn't stay inside one
+workspace:
+
+- **The context lives elsewhere.** The user's rulings, other projects,
+  other tools, and the rest of their life sit outside Obvious's memory.
+  Muse holds them, and every order inherits them.
+- **The checker must be independent.** Obvious grades its runs against
+  the criteria it was given; Muse reads the actual deliverable with no
+  stake in the run's self-report — and when a run dies, Muse is a
+  second workforce that can ship the deliverable itself.
+- **The user shouldn't operate anything.** Obvious has a mobile app;
+  so does Muse. Reach was never the question. With the app alone you
+  work the Inbox from your phone. With the pairing, decisions arrive
+  where you already talk, batched across every project — and your
+  whole job is to decide.
+
 The skill is the contract between the two tools. Install it, and any
 agent session that drives Obvious inherits the discipline: no
 babysitting the user, no trusting a status screen, no merging what
