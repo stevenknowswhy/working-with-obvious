@@ -45,6 +45,18 @@ agent session that drives Obvious inherits the discipline: no
 babysitting the user, no trusting a status screen, no merging what
 hasn't been checked.
 
+| | **Muse alone** | **Obvious alone** | **Muse + Obvious** |
+|---|---|---|---|
+| Executes the work | Yes — one thread, sequentially | Yes — focused work orders | Yes — Obvious executes, in parallel |
+| Parallel orders | No — one thing at a time | Yes | Yes — and Muse sequences them |
+| Knows the user and the project's history | Yes — memory, files, prior decisions | No — starts from the order | Yes — every order carries the context it needs |
+| Writes the spec and acceptance tests | Yes | No — the user writes them, or nobody does | Yes — Muse specs to a fixed anatomy |
+| Verifies the delivery | At the destination, always | Reports "Completed" | PRs checked at the destination, then merged |
+| Handles the human's decisions | Asks in chat | Waits inside the app, one ping at a time | Batched in chat, as one numbered list |
+| Watches cost | N/A | Credits burn invisibly; pinned models bill extra | Ledger read first; pinning is deliberate |
+| Paper trail | Logs and saved specs | Lives inside the app | Running log + verified merges, readable by the next session |
+| The human's job | Direct the work | Babysit the inbox | Decide — nothing else |
+
 ## What it teaches an agent
 
 - **The operating contract** — no babysitting: the agent writes specs,
